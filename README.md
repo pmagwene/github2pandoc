@@ -8,6 +8,8 @@ Currently it handles the following conversions:
 - GitHub LaTeX math (bracket delimited) → Pandoc LaTeX math (dollar sign delimited)
 - GitHub delimited code blocks (triple backticks) → Pandoc delimited code blocks (tildes)
 
+I'm sure the same could be done more compactly with some Sed magic, but then I prefer Python the use of Python's `re` module for it's readability.
+
 # Installation
 
 On a Unix-like system: Put it somewhere in your path and make it executable.
